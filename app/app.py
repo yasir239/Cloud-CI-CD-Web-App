@@ -7,7 +7,7 @@ app = Flask(__name__)
 def home():
     return jsonify({
         "status": "healthy",
-        "message": "Hello from AWS ECS Fargate! 🚀",
+        "message": "Hello from AWS ECS Fargate! ",
         "version": os.getenv("APP_VERSION", "1.0.0")
     })
 
